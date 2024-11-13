@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome.css">
+    <script src="bootstrap/js/bootstrap.bundle.js" async></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap');
+
+        $background: #fffffb;
+        $accent: #ff6b6c;
+        $otherAccent: #ffc145;
+        $darkBackground: #5b5f97;
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: "Roboto", Arial, sans-serif;
+            color: #222;
+            background-color: #f8f9fa; /* Added a light background color */
+        }
+
+        .card {
+            max-width: 400px;
+            margin: auto;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #ffffff; /* Added a white background color */
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .title {
+            color: #6c757d; /* Changed to a softer grey color */
+            font-size: 18px;
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: $accent;
+            text-align: center;
+            cursor: pointer;
+            width: 80%; /* Adjusted width */
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: $otherAccent; /* Added a different color on hover */
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: #000000; /* Changed link color */
+        }
+
+        a:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <!-- User card -->
+    <section>
+        <div class="container">
+            <div class="grid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="D:\Bootstrap\bootstrap\media\sample.jpg" alt="Pavan">
+                            <h1>Pavan Kumar</h1>
+                            <p class="title">Department of Information Technology</p>
+                            <p>Bapatla Engineering College</p>
+                            <div style="margin: 24px 0;">
+                                <a href="#"><i class="fa fa-dribbble"></i></a> 
+                                <a href="#"><i class="fa fa-twitter"></i></a>  
+                                <a href="#"><i class="fa fa-linkedin"></i></a>  
+                                <a href="#"><i class="fa fa-facebook"></i></a> 
+                            </div>
+                            <p><button class="bg-dark">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

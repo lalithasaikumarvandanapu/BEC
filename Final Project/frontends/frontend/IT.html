@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Technology Department</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #007bff;
+        }
+
+        nav a {
+            color: white !important;
+        }
+
+        .navbar-brand img {
+            width: 30px; /* Adjust as needed */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        /* Slider */
+        .slider img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* About Us */
+        .about-us img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Testimonial */
+        .testimonial img {
+            width: 80px; /* Adjust as needed */
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        /* Gallery */
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Placement */
+        .placement img {
+            width: 300px; /* Adjust as needed */
+            height: 150px;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+
+        .event-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .event {
+            width: 31%;
+            float: left;
+            margin-bottom: 20px;
+        }
+
+        .event div {
+            padding: 15px;
+            background-color: #f0f3fa;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .event ul li {
+            margin-bottom: 15px;
+        }
+        .pav {
+            width: 30px; /* Adjust as needed */
+            height: auto;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container">
+            <a class="navbar-brand" href="#" ">
+
+                <img src="bootstrap\media\beclogo.png" alt="Department Logo"> <i style="font-family: Dancing Script;">Bapatla Engineering College</i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Alumini Data</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+    <div class="slider" id="home">
+        <img src="bootstrap\media\research.jpg" alt="Slider Image">
+    </div>
+
+    <!-- About Us -->
+    <div class="container about-us mt-4" id="about-us">
+        <!-- Replace the content with your own -->
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Welcome to Alumini Portal</h2>
+                <b>Vision</b>
+                <ul>
+                    <li>The Association aims to bring its members spread across the globe under one umbrella, to work in tandem with its Alma Mater including its faculty and current students</li>
+                </ul>
+                <b>Mission</b>
+                <ul>
+                    <li>AM1 Foster strong bonds between alumni, college and current students</li>
+                    <li>AM2 Create a network enabling alumni to remain engaged with all stakeholders of the alma mater following ethics and the law of the land</li>
+                </ul>
+                <img src="bootstrap\media\main.jpg" alt="Signature Image">
+                <br>
+                <br>
+                <img src="bootstrap\media\skybec.jpeg" alt="Signature Image">
+            </div>
+            <div class="col-md-6" >
+                <img src="bootstrap\media\reit.jpeg" alt="About Us Image" width="400px" height="600px">
+            </div>
+        </div>
+    </div>
+
+    <!-- News, Event, Notice Board -->
+    <div class="container event-container" id="notice-board">
+        <!-- Campus News Section -->
+        <div class="event">
+            <h2 class="mb-3">Department News</h2>
+            <div>
+                <marquee direction="up" scrollamount="7" style="height:400px;">
+                    <ul>
+                        <li> Outstanding performance by IT students in national coding competitions, showcasing their exceptional skills and problem-solving abilities.</li>
+                        <li> Collaborations with industry leaders for internships and real-world projects.</li>
+                        <!-- Add more news items -->
+                    </ul>
+                </marquee>
+            </div>
+        </div>
+        <!-- Events Section -->
+        <div class="event">
+            <h2 class="mb-3">Events</h2>
+            <div>
+                <marquee direction="up" scrollamount="7" style="height:400px;">
+                    <ul>
+                        <li>Tech Talks and Workshops: Renowned speakers from the tech industry will share insights on the latest trends and technologies</li>
+                        <li> Innovation Showcase: Students will exhibit their projects, demonstrating the impact of technology on various domains.</li>
+                        <!-- Add more events -->
+                    </ul>
+                </marquee>
+            </div>
+        </div>
+        <!-- Notice Board Section -->
+        <div class="event">
+            <h2 class="mb-3">Notice Boards</h2>
+            <div>
+                <marquee direction="up" scrollamount="7" style="height:400px;">
+                    <ul>
+                        <li> Upcoming Exams: The schedule for the end-of-semester exams has been released. Plan your study schedule accordingly and reach out to faculty members for any clarifications.</li>
+                        <li> Internship Opportunities: Explore exciting internship opportunities with leading tech companies. Check the notice board for details on application procedures and deadlines.</li>
+                        <!-- Add more notice board items -->
+                    </ul>
+                </marquee>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <!-- Gallery -->
+    <div class="container gallery mt-4" id="gallery">
+        <!-- Replace the content with your own -->
+        <h2 class="mb-3">Alumini Gallery</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="bootstrap\media\reit.jpeg" alt="Gallery Image 1">
+            </div>
+            <div class="col-md-4">
+                <br>
+                <br>
+                <img src="bootstrap\media\library.jpeg" alt="Gallery Image 2">
+            </div>
+            <div class="col-md-4">
+                <img src="bootstrap\media\geeb.jpeg" alt="Gallery Image 3">
+            </div>
+            <!-- Add more gallery images -->
+        </div>
+    </div>
+
+    <!-- Placement -->
+    <div class="container placement mt-4" id="placement">
+        <!-- Replace the content with your own -->
+        <h2 class="mb-3">Placement</h2>
+        <div class="row">
+            <marquee class="placement" direction="left" scrollamount="10">
+                <div class="col-md-2">
+                    <img src="bootstrap\media\google.jpg" alt="Company Image 1">
+                </div>
+                <br>
+                <div class="col-md-2">
+                    <img src="bootstrap\media\amazon.jpg" alt="Company Image 2">
+                </div>
+                <br>
+                <div class="col-md-2">
+                    <img src="bootstrap\media\microsoft.png" alt="Company Image 3">
+                </div>
+                <!-- Add more placement images -->
+            </marquee>
+        </div>
+    </div>
+    <!--footer-->
+    <section class="footer bg-dark p-5 m-1 text-white-50" id="footer">
+        <div class="container">
+            <div class="grid">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <p style="font-family: Inconsolata;">copiright@2022</p>
+                        <p style="font-family: Dancing script;">Bapatla Engineering college</p>
+                            <p style="font-family: Dancing Script;">Designed by</p>
+                            <p style="font-family: Dancing Script;" class="text-warning">IT Dept Students</p>
+                            <p>contant-##########</p>
+                    </div>
+                    <div class="col-md-4 offset-4">
+                        <form>
+                            <div class="mb-2">
+                                <input type="text" placeholder="Your name" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <input type="email" placeholder="email" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <input type="number" placeholder="Mobile number" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <input type="text" placeholder="Department" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <textarea rows="3" placeholder="Your name" class="form-control"></textarea>
+                            </div>
+                            <div class="mb-2">
+                                <input type="submit" class="btn btn-success" value="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
